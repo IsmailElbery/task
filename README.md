@@ -1,6 +1,5 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px alt="Project logo"></a>
 </p>
 
 <h3 align="center">ForsaThanya - Task</h3>
@@ -39,14 +38,14 @@ About if the code quality has problems? Yes it has.
 
 These problems are :-
 
--You are summoned xmlRead Class which dose not exist.
+-You are useing xmlRead Class which dose not exist.
 
--You are summoned Item Class which dose not exist.
+-You are useing Item Class which dose not exist.
 
--You are summoned InvalidFormatException Class which dose not exist.
+-You are useing InvalidFormatException Class which dose not exist.
 ## ⛏️ Refactor the code <a name = "refactor_code"></a>
 
--At first I created the XMl class which you are summoned it and inside this class I created a function ( getElements) to convert XML string into an object so I can loop on it.
+-At first I created the XMl class which you are used it and inside this class I created a function ( getElements) to convert XML string into an object so I can loop on it.
 
 -I created an Item Class and defined two variables which are used in the main code.
 
