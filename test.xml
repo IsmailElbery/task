@@ -1,0 +1,14 @@
+<company>
+ <employee>
+ <_id>1</_id>
+ <item_name>ismail</item_name>
+ </employee>
+ <employee>
+ <_id>2</_id>
+ <item_name>ayman</item_name>
+ </employee>
+ <employee>
+ <_id>3</_id>
+ <item_name>ahmed</item_name>
+ </employee>
+</company>
