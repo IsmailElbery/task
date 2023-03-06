@@ -1,5 +1,7 @@
 <?php
-//
+
+// if you want to test this code plese un comment the bellow code
+
 /* $obj = new ItemReader('test.txt', 'txt');
 $result = $obj->readItems();
 if($result){
@@ -41,19 +43,20 @@ class ItemReader
                 }
                 break;
             default:
+                // some edits happend here
                 $ex = new InvalidFormatException();
                 $ex->errorMessage();
         }
         return $items;
     }
 }
-// Define Item Class 
+// Define Item Class
 class Item
 {
     public string $id;
     public string $name;
 }
-// Define XmlRead Class 
+// Define XmlRead Class
 class XmlRead
 {
     public $content;
@@ -71,7 +74,8 @@ class XmlRead
 // handel InvalidFormatException with an error message
 class InvalidFormatException extends Exception
 {
-    public function errorMessage() {
+    public function errorMessage()
+    {
         //error message
         echo 'Error on line '.$this->getLine().'</b> with message "File must be a XML File or JSON File Only"';
     }
