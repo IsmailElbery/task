@@ -38,11 +38,11 @@ About if the code quality has problems? Yes it has.
 
 These problems are :-
 
--You are useing xmlRead Class which dose not exist.
+-You are using xmlRead Class which dose not exist.
 
--You are useing Item Class which dose not exist.
+-You are using Item Class which dose not exist.
 
--You are useing InvalidFormatException Class which dose not exist.
+-You are using InvalidFormatException Class which dose not exist.
 ## ⛏️ Refactor the code <a name = "refactor_code"></a>
 
 -At first I created the XMl class which you are used it and inside this class I created a function ( getElements) to convert XML string into an object so I can loop on it.
